@@ -1,0 +1,8 @@
+.venv
+External Libraries
+*.sqlite3
+*.log
+*.pyc
+/hw_6/media/
+/hw_6/static/
+.idea/
