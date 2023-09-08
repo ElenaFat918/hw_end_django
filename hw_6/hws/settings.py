@@ -93,7 +93,7 @@ WSGI_APPLICATION = 'hws.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysgl',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'Keaya$default',
         'USER': 'Keaya',
         'PASSWORD': os.getenv('MYSQL_PASSWORD'),
